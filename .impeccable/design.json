@@ -1,0 +1,602 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-03T12:35:02.050Z",
+  "title": "Design System: Jayce Yap Zi Wen",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "displayName": "Paper",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0098 87.47)",
+          "oklch(26.43% 0.0098 87.47)",
+          "oklch(37.86% 0.0098 87.47)",
+          "oklch(49.29% 0.0098 87.47)",
+          "oklch(60.71% 0.0098 87.47)",
+          "oklch(72.14% 0.0098 87.47)",
+          "oklch(83.57% 0.0098 87.47)",
+          "oklch(95.00% 0.0098 87.47)"
+        ]
+      },
+      "white": {
+        "displayName": "Warm White",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0107 76.60)",
+          "oklch(26.43% 0.0107 76.60)",
+          "oklch(37.86% 0.0107 76.60)",
+          "oklch(49.29% 0.0107 76.60)",
+          "oklch(60.71% 0.0107 76.60)",
+          "oklch(72.14% 0.0107 76.60)",
+          "oklch(83.57% 0.0107 76.60)",
+          "oklch(95.00% 0.0107 76.60)"
+        ]
+      },
+      "ink": {
+        "displayName": "Ink",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0128 140.46)",
+          "oklch(26.43% 0.0128 140.46)",
+          "oklch(37.86% 0.0128 140.46)",
+          "oklch(49.29% 0.0128 140.46)",
+          "oklch(60.71% 0.0128 140.46)",
+          "oklch(72.14% 0.0128 140.46)",
+          "oklch(83.57% 0.0128 140.46)",
+          "oklch(95.00% 0.0128 140.46)"
+        ]
+      },
+      "muted": {
+        "displayName": "Muted Olive",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0171 107.01)",
+          "oklch(26.43% 0.0171 107.01)",
+          "oklch(37.86% 0.0171 107.01)",
+          "oklch(49.29% 0.0171 107.01)",
+          "oklch(60.71% 0.0171 107.01)",
+          "oklch(72.14% 0.0171 107.01)",
+          "oklch(83.57% 0.0171 107.01)",
+          "oklch(95.00% 0.0171 107.01)"
+        ]
+      },
+      "wine": {
+        "displayName": "Wine",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15.00% 0.1590 16.28)",
+          "oklch(26.43% 0.1590 16.28)",
+          "oklch(37.86% 0.1590 16.28)",
+          "oklch(49.29% 0.1590 16.28)",
+          "oklch(60.71% 0.1590 16.28)",
+          "oklch(72.14% 0.1590 16.28)",
+          "oklch(83.57% 0.1590 16.28)",
+          "oklch(95.00% 0.1590 16.28)"
+        ]
+      },
+      "wine-dark": {
+        "displayName": "Deep Wine",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15.00% 0.1118 9.06)",
+          "oklch(26.43% 0.1118 9.06)",
+          "oklch(37.86% 0.1118 9.06)",
+          "oklch(49.29% 0.1118 9.06)",
+          "oklch(60.71% 0.1118 9.06)",
+          "oklch(72.14% 0.1118 9.06)",
+          "oklch(83.57% 0.1118 9.06)",
+          "oklch(95.00% 0.1118 9.06)"
+        ]
+      },
+      "line": {
+        "displayName": "Paper Rule",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0175 84.59)",
+          "oklch(26.43% 0.0175 84.59)",
+          "oklch(37.86% 0.0175 84.59)",
+          "oklch(49.29% 0.0175 84.59)",
+          "oklch(60.71% 0.0175 84.59)",
+          "oklch(72.14% 0.0175 84.59)",
+          "oklch(83.57% 0.0175 84.59)",
+          "oklch(95.00% 0.0175 84.59)"
+        ]
+      },
+      "surface": {
+        "displayName": "Light Surface",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0069 88.64)",
+          "oklch(26.43% 0.0069 88.64)",
+          "oklch(37.86% 0.0069 88.64)",
+          "oklch(49.29% 0.0069 88.64)",
+          "oklch(60.71% 0.0069 88.64)",
+          "oklch(72.14% 0.0069 88.64)",
+          "oklch(83.57% 0.0069 88.64)",
+          "oklch(95.00% 0.0069 88.64)"
+        ]
+      },
+      "shield-sage": {
+        "displayName": "Shield Sage",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15.00% 0.0397 139.98)",
+          "oklch(26.43% 0.0397 139.98)",
+          "oklch(37.86% 0.0397 139.98)",
+          "oklch(49.29% 0.0397 139.98)",
+          "oklch(60.71% 0.0397 139.98)",
+          "oklch(72.14% 0.0397 139.98)",
+          "oklch(83.57% 0.0397 139.98)",
+          "oklch(95.00% 0.0397 139.98)"
+        ]
+      },
+      "shield-gold": {
+        "displayName": "Shield Gold",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15.00% 0.0821 72.44)",
+          "oklch(26.43% 0.0821 72.44)",
+          "oklch(37.86% 0.0821 72.44)",
+          "oklch(49.29% 0.0821 72.44)",
+          "oklch(60.71% 0.0821 72.44)",
+          "oklch(72.14% 0.0821 72.44)",
+          "oklch(83.57% 0.0821 72.44)",
+          "oklch(95.00% 0.0821 72.44)"
+        ]
+      },
+      "shield-symbol": {
+        "displayName": "Shield Symbol",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0308 86.46)",
+          "oklch(26.43% 0.0308 86.46)",
+          "oklch(37.86% 0.0308 86.46)",
+          "oklch(49.29% 0.0308 86.46)",
+          "oklch(60.71% 0.0308 86.46)",
+          "oklch(72.14% 0.0308 86.46)",
+          "oklch(83.57% 0.0308 86.46)",
+          "oklch(95.00% 0.0308 86.46)"
+        ]
+      },
+      "chapters-wine": {
+        "displayName": "Chapters Wine",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15.00% 0.1173 11.15)",
+          "oklch(26.43% 0.1173 11.15)",
+          "oklch(37.86% 0.1173 11.15)",
+          "oklch(49.29% 0.1173 11.15)",
+          "oklch(60.71% 0.1173 11.15)",
+          "oklch(72.14% 0.1173 11.15)",
+          "oklch(83.57% 0.1173 11.15)",
+          "oklch(95.00% 0.1173 11.15)"
+        ]
+      },
+      "chapters-pale": {
+        "displayName": "Chapters Pale",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0203 81.78)",
+          "oklch(26.43% 0.0203 81.78)",
+          "oklch(37.86% 0.0203 81.78)",
+          "oklch(49.29% 0.0203 81.78)",
+          "oklch(60.71% 0.0203 81.78)",
+          "oklch(72.14% 0.0203 81.78)",
+          "oklch(83.57% 0.0203 81.78)",
+          "oklch(95.00% 0.0203 81.78)"
+        ]
+      },
+      "chapters-apricot": {
+        "displayName": "Chapters Apricot",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15.00% 0.0706 61.68)",
+          "oklch(26.43% 0.0706 61.68)",
+          "oklch(37.86% 0.0706 61.68)",
+          "oklch(49.29% 0.0706 61.68)",
+          "oklch(60.71% 0.0706 61.68)",
+          "oklch(72.14% 0.0706 61.68)",
+          "oklch(83.57% 0.0706 61.68)",
+          "oklch(95.00% 0.0706 61.68)"
+        ]
+      },
+      "chapters-copy": {
+        "displayName": "Chapters Copy",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0244 17.61)",
+          "oklch(26.43% 0.0244 17.61)",
+          "oklch(37.86% 0.0244 17.61)",
+          "oklch(49.29% 0.0244 17.61)",
+          "oklch(60.71% 0.0244 17.61)",
+          "oklch(72.14% 0.0244 17.61)",
+          "oklch(83.57% 0.0244 17.61)",
+          "oklch(95.00% 0.0244 17.61)"
+        ]
+      },
+      "chapters-rule": {
+        "displayName": "Chapters Rule",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0950 8.00)",
+          "oklch(26.43% 0.0950 8.00)",
+          "oklch(37.86% 0.0950 8.00)",
+          "oklch(49.29% 0.0950 8.00)",
+          "oklch(60.71% 0.0950 8.00)",
+          "oklch(72.14% 0.0950 8.00)",
+          "oklch(83.57% 0.0950 8.00)",
+          "oklch(95.00% 0.0950 8.00)"
+        ]
+      },
+      "chapters-folio": {
+        "displayName": "Chapters Folio",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0476 55.69)",
+          "oklch(26.43% 0.0476 55.69)",
+          "oklch(37.86% 0.0476 55.69)",
+          "oklch(49.29% 0.0476 55.69)",
+          "oklch(60.71% 0.0476 55.69)",
+          "oklch(72.14% 0.0476 55.69)",
+          "oklch(83.57% 0.0476 55.69)",
+          "oklch(95.00% 0.0476 55.69)"
+        ]
+      },
+      "chapters-hover-ink": {
+        "displayName": "Chapters Hover Ink",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15.00% 0.0887 8.68)",
+          "oklch(26.43% 0.0887 8.68)",
+          "oklch(37.86% 0.0887 8.68)",
+          "oklch(49.29% 0.0887 8.68)",
+          "oklch(60.71% 0.0887 8.68)",
+          "oklch(72.14% 0.0887 8.68)",
+          "oklch(83.57% 0.0887 8.68)",
+          "oklch(95.00% 0.0887 8.68)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Hero headline."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section headings, with local editorial size adjustments."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Component headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "15px global baseline; explanatory paragraphs use the 14px explanation role."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form labels; controls, consent, validation, and supporting notes generally use the same 12px size."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Primary actions and text links."
+      },
+      "explanation": {
+        "displayName": "Explanation",
+        "purpose": "Readable 14px supporting paragraphs, coverage list items, and FAQ questions."
+      },
+      "field": {
+        "displayName": "Field",
+        "purpose": "16px text entry; date and time fields are 14px on larger screens and 16px on mobile."
+      },
+      "sculpture-display": {
+        "displayName": "Sculpture Display",
+        "purpose": "Local default hero headline; retains the original portrait display role separately."
+      },
+      "sculpture-display-compact": {
+        "displayName": "Sculpture Display Compact",
+        "purpose": "Local 88px heading step at maximum width 1100px."
+      },
+      "sculpture-display-tablet": {
+        "displayName": "Sculpture Display Tablet",
+        "purpose": "Local 72px heading step at maximum width 800px."
+      },
+      "sculpture-display-mobile": {
+        "displayName": "Sculpture Display Mobile",
+        "purpose": "Local fluid heading at maximum width 600px, with 0.86 line height."
+      },
+      "sculpture-subheading": {
+        "displayName": "Sculpture Subheading",
+        "purpose": "Fluid desktop serif subheading, becoming 25px at tablet and mobile widths."
+      },
+      "sculpture-chapter-title": {
+        "displayName": "Sculpture Chapter Title",
+        "purpose": "Local 26px topic heading; 24px on tablet and 26px on mobile."
+      },
+      "hero-switch": {
+        "displayName": "Hero Switch",
+        "purpose": "Local 11px switch label, reduced to 10px at tablet and mobile widths."
+      },
+      "chapters-display": {
+        "displayName": "Chapters Display",
+        "purpose": "Third-hero main heading; 66px at 1000px and clamp(61px,12vw,78px) at 700px."
+      },
+      "chapters-title": {
+        "displayName": "Chapters Title",
+        "purpose": "Third-hero story heading; 36px at 1000px and 39px at 700px."
+      },
+      "chapters-focus": {
+        "displayName": "Chapters Focus",
+        "purpose": "23px italic serif takeaway within the active life chapter."
+      },
+      "protection-word": {
+        "displayName": "Protection Word",
+        "purpose": "37px coverage-card title, reduced to 30px at tablet and mobile widths."
+      }
+    },
+    "shadows": [
+      {
+        "name": "primary-hover",
+        "value": "0 7px 18px #641a2b17",
+        "purpose": "Primary action hover."
+      },
+      {
+        "name": "booking",
+        "value": "0 10px 35px #59462b09",
+        "purpose": "Appointment request panel."
+      },
+      {
+        "name": "protection-layer",
+        "value": "14px 22px 27px #4b443222",
+        "purpose": "Coverage layer depth."
+      },
+      {
+        "name": "portrait-seal",
+        "value": "0 6px 24px #412a2517",
+        "purpose": "Portrait seal."
+      },
+      {
+        "name": "floating-contact",
+        "value": "0 5px 18px #3b17231f",
+        "purpose": "Floating contact action, shown only after the hero leaves the viewport."
+      },
+      {
+        "name": "privacy-dialog",
+        "value": "0 20px 70px #17191338",
+        "purpose": "Privacy modal."
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "0 15px 20px #33291b0d",
+        "purpose": "Expanded mobile menu."
+      }
+    ],
+    "motion": [
+      {
+        "name": "expressive-ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Hero entrance, protection layer transforms, and journal image scale."
+      },
+      {
+        "name": "button-transition",
+        "value": "250ms ease",
+        "purpose": "Primary button background, press transform, and shadow."
+      },
+      {
+        "name": "content-entrance",
+        "value": "translateY(9px) to translateY(0)",
+        "purpose": "Article, FAQ, and coverage content entrance."
+      },
+      {
+        "name": "portrait-reveal",
+        "value": "1.3s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Portrait clip and saturation entrance."
+      },
+      {
+        "name": "layer-transform",
+        "value": "800ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Flat two-dimensional four-card coverage selection with persistent items and deterministic rank-based stacking; no hover transforms."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation: none !important; transition: none !important",
+        "purpose": "Global reduced-motion override; smooth scrolling also stops."
+      },
+      {
+        "name": "article-scroll",
+        "value": "smooth; instant when prefers-reduced-motion: reduce",
+        "purpose": "Opening an article focuses and scrolls to its detail panel; closing restores focus and scroll to its originating card."
+      },
+      {
+        "name": "hero-version-entrance",
+        "value": "500ms cubic-bezier(0.16,1,0.3,1); translateY(5px) to translateY(0)",
+        "purpose": "Entrance for the newly mounted Sculpture or Portrait hero; disabled under reduced motion."
+      },
+      {
+        "name": "shield-ready",
+        "value": "canvas opacity 600ms ease; fallback opacity 300ms ease",
+        "purpose": "Crossfade from an immediate three-icon fallback to the ready shield canvas, disabled under reduced motion."
+      },
+      {
+        "name": "shield-render-budget",
+        "value": "Display animation cadence; maximum device pixel ratio 1.5; six draw calls per frame",
+        "purpose": "Renderer loads within 120px of the viewport, prepares shaders asynchronously with a 128px environment map, suspends looping when paused, offscreen, document-hidden, reduced-motion, or context-lost, rebuilds lighting after context restoration, and disposes when another hero mounts."
+      },
+      {
+        "name": "shield-selection-and-separation",
+        "value": "pose interpolation factor 0.13; instant while motion disabled",
+        "purpose": "A 0-100% slider, initially 65%, separates the three extruded shields; canvas raycasting and HTML topic buttons share the same selected topic."
+      },
+      {
+        "name": "shield-pointer-response",
+        "value": "mouse horizontal 0.25rad; mouse vertical 0.12rad",
+        "purpose": "Restrained assembly response while animation is enabled; direct shield selection remains available when motion is disabled."
+      },
+      {
+        "name": "chapter-unfold",
+        "value": "550ms cubic-bezier(.16,1,.3,1); translateY(8px) to translateY(0)",
+        "purpose": "Selected life chapter story entrance, disabled under reduced motion."
+      },
+      {
+        "name": "chapter-timeline",
+        "value": "450ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Apricot selected-rule expansion; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-desktop-max",
+        "value": "1100px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "800px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "600px"
+      },
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "chapters-compact-max",
+        "value": "1000px"
+      },
+      {
+        "name": "chapters-mobile-max",
+        "value": "700px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The principal consultation action.",
+      "html": "<button class=\"ds-primary\">Let's have a conversation <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:28px;min-height:53px;padding:14px 23px;background:var(--wine,#a1253b);color:var(--white,#fffaf3);border:1px solid var(--wine,#a1253b);border-radius:0;font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:12px;font-weight:500;line-height:1.5;cursor:pointer;transition:background .25s ease,transform .25s ease,box-shadow .25s ease}.ds-primary:hover{background:var(--wine-dark,#702135);border-color:var(--wine-dark,#702135);box-shadow:0 7px 18px #641a2b17}.ds-primary svg{transition:transform .3s ease}.ds-primary:hover svg{transform:translate(2px,-2px)}.ds-primary:active{transform:translateY(1px)}.ds-primary:focus-visible{outline:2px solid var(--wine,#a1253b);outline-offset:5px}.ds-primary:disabled{background:#e3dbcf;color:#71665c;border-color:#e3dbcf;cursor:not-allowed;box-shadow:none}@media(prefers-reduced-motion:reduce){.ds-primary,.ds-primary svg{transition:none}}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "button",
+      "refersTo": "text-link",
+      "description": "A quieter action with an expanding underline.",
+      "html": "<a class=\"ds-text-link\" href=\"#planning\">Take a planning check <svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M7 17 17 7M7 7h10v10\"/></svg></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:18px;position:relative;background:none;border:0;padding:7px 0;color:var(--ink,#292e28);font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:12px;font-weight:500;line-height:1.5;text-decoration:none}.ds-text-link:after{content:'';position:absolute;left:0;bottom:0;width:100%;height:1px;background:currentColor;transform:scaleX(.2);transform-origin:left;transition:transform .35s ease}.ds-text-link:hover:after{transform:scaleX(1)}.ds-text-link svg{transition:transform .25s ease}.ds-text-link:hover svg{transform:translateX(3px)}.ds-text-link:focus-visible{outline:2px solid var(--wine,#a1253b);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-text-link:after,.ds-text-link svg{transition:none}}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "A square field with a clear wine focus outline.",
+      "html": "<label class=\"ds-field\">Your name<input placeholder=\"How should I address you?\" autocomplete=\"name\"></label>",
+      "css": ".ds-field{display:block;color:var(--ink,#292e28);font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:12px;line-height:1.5;font-weight:500}.ds-field input{display:block;width:calc(100% - 28px);margin-top:8px;min-height:23px;background:#fffdf8;border:1px solid #cfc7bb;border-radius:0;padding:11px 13px;color:var(--ink,#292e28);font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:16px;line-height:1.65;caret-color:var(--wine,#a1253b)}.ds-field input::placeholder{color:#766e62;opacity:1}.ds-field input:focus{outline:2px solid var(--wine,#a1253b);outline-offset:1px}"
+    },
+    {
+      "name": "Editorial Navigation",
+      "kind": "nav",
+      "description": "Compact section links with a wine hover rule.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Preview navigation\"><a href=\"#about\">About</a><a href=\"#protection\">Protection</a><a href=\"#journal\">Journal</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:39px;align-items:center;font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:12px;background:var(--paper,#f5f2eb);color:var(--ink,#292e28)}.ds-nav a{position:relative;padding:12px 0;color:inherit;text-decoration:none}.ds-nav a:after{content:'';position:absolute;left:0;bottom:7px;width:100%;height:1px;background:var(--wine,#a1253b);transform:scaleX(0);transform-origin:left;transition:transform .3s ease}.ds-nav a:hover:after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:2px solid var(--wine,#a1253b);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-nav a:after{transition:none}}"
+    },
+    {
+      "name": "Booking Surface",
+      "kind": "card",
+      "refersTo": "booking",
+      "description": "The softly elevated paper surface for consultation requests.",
+      "html": "<section class=\"ds-booking\"><h3>A conversation, at your pace.</h3><p>Start with a few details. Review your request before sending.</p></section>",
+      "css": ".ds-booking{background:var(--paper,#f5f2eb);color:var(--ink,#292e28);padding:36px;box-shadow:0 10px 35px #59462b09;border-radius:0}.ds-booking h3{font-family:var(--serif,'Cormorant Garamond Variable',Georgia,serif);font-size:33px;line-height:1.1;font-weight:400;letter-spacing:-.02em;margin:0}.ds-booking p{font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:12px;line-height:1.65;color:var(--muted,#626257);margin:10px 0 0}"
+    },
+    {
+      "name": "Coverage Tabs",
+      "kind": "nav",
+      "refersTo": "coverage-tab",
+      "description": "Muted coverage choices with a wine selected underline.",
+      "html": "<div class=\"ds-tabs\" role=\"tablist\" aria-label=\"Coverage preview\"><button role=\"tab\" aria-selected=\"true\">Medical protection</button><button role=\"tab\" aria-selected=\"false\" tabindex=\"-1\">Life protection</button></div>",
+      "css": ".ds-tabs{display:flex;gap:25px;border-bottom:1px solid var(--line,#dcd6ca)}.ds-tabs button{flex:1;text-align:left;background:transparent;border:0;border-bottom:2px solid transparent;border-radius:0;position:relative;top:1px;padding:18px 0;font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:12px;color:var(--muted,#626257);cursor:pointer;transition:color .25s ease,border-color .25s ease}.ds-tabs button[aria-selected=true]{border-bottom-color:var(--wine,#a1253b);color:var(--wine,#a1253b)}.ds-tabs button:hover{color:var(--wine,#a1253b)}.ds-tabs button:focus-visible{outline:2px solid var(--wine,#a1253b);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-tabs button{transition:none}}@media(max-width:800px){.ds-tabs button{font-size:11px}}@media(max-width:600px){.ds-tabs button{font-size:12px}}"
+    },
+    {
+      "name": "Planning Choice",
+      "kind": "input",
+      "refersTo": "quiz-option",
+      "description": "A selectable bordered row with a circular selection marker.",
+      "html": "<label class=\"ds-choice\"><input type=\"radio\" name=\"preview-planning\" checked>Building a family<span class=\"ds-radio\" aria-hidden=\"true\">✓</span></label>",
+      "css": ".ds-choice{display:flex;align-items:center;justify-content:space-between;gap:10px;position:relative;min-height:24px;padding:12px 15px;border:1px solid var(--line,#dcd6ca);background:var(--paper,#f5f2eb);color:var(--ink,#292e28);font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:12px;line-height:1.65;cursor:pointer;transition:border-color .2s ease,background .2s ease}.ds-choice input{position:absolute;opacity:0;width:1px;height:1px}.ds-choice:has(input:checked){background:#eee5df;border-color:var(--wine,#a1253b)}.ds-choice:hover{border-color:var(--wine,#a1253b)}.ds-choice:focus-within{outline:2px solid var(--wine,#a1253b);outline-offset:3px}.ds-radio{display:grid;place-items:center;border:1px solid #aaa091;border-radius:50%;height:15px;width:15px;flex-shrink:0;color:transparent;font-size:10px}.ds-choice:has(input:checked) .ds-radio{background:var(--wine,#a1253b);border-color:var(--wine,#a1253b);color:white}@media(prefers-reduced-motion:reduce){.ds-choice{transition:none}}@media(max-width:600px){.ds-choice{font-size:13px}}"
+    },
+    {
+      "name": "Protection Layer",
+      "kind": "custom",
+      "refersTo": "protection-layer",
+      "description": "Four persistent coverage cards retain their colors and labels, using flat rank-based transforms with stable stacking and no hover override.",
+      "html": "<div class=\"ds-layer-scene\"><div class=\"ds-layer\" style=\"--ds-card-rank:0;background:#697865;z-index:4\"><span>01 / Protection</span><strong>Health,<br><em>covered.</em></strong></div><div class=\"ds-layer\" style=\"--ds-card-rank:1;background:#a1253b;z-index:3\"><span>02 / Protection</span><strong>Recovery,<br><em>supported.</em></strong></div><div class=\"ds-layer\" style=\"--ds-card-rank:2;background:#987247;z-index:2\"><span>03 / Protection</span><strong>Family,<br><em>considered.</em></strong></div><div class=\"ds-layer\" style=\"--ds-card-rank:3;background:#78684e;z-index:1\"><span>04 / Protection</span><strong>Clarity,<br><em>renewed.</em></strong></div></div>",
+      "css": ".ds-layer-scene{position:relative;isolation:isolate;min-height:340px;background:#eae8df;overflow:hidden}.ds-layer{box-sizing:border-box;position:absolute;left:50%;top:45%;width:195px;height:242px;padding:25px;border-radius:4px 4px 60px 4px;color:var(--white,#fffaf3);display:flex;flex-direction:column;box-shadow:14px 22px 27px #4b443222;transform-origin:center;transform:translate(calc(-62% + var(--ds-card-rank)*19px),calc(-38% - var(--ds-card-rank)*17px)) rotate(calc(-10deg + var(--ds-card-rank)*7deg));transition:transform .8s cubic-bezier(.16,1,.3,1),background .7s ease,color .7s ease}.ds-layer>span{font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:10px;letter-spacing:.01em}.ds-layer strong{font-family:var(--serif,'Cormorant Garamond Variable',Georgia,serif);font-size:37px;font-weight:400;line-height:.96;letter-spacing:-.03em;margin-top:auto}.ds-layer strong em{font-weight:400}@media(max-width:800px){.ds-layer{width:160px;height:215px;padding:20px}.ds-layer strong{font-size:30px}}@media(max-width:600px){.ds-layer{height:190px}}@media(prefers-reduced-motion:reduce){.ds-layer{transition:none}}"
+    },
+    {
+      "name": "Portrait Disclosure",
+      "kind": "custom",
+      "description": "An explicit AI illustration disclosure in normal flow below the portrait.",
+      "html": "<span class=\"ds-portrait-note\">AI illustration - Jayce’s photo coming soon.</span>",
+      "css": ".ds-portrait-note{position:static;display:block;font-family:var(--sans,'DM Sans Variable',sans-serif);font-size:12px;line-height:1.5;padding:9px 0 0;background:none;color:var(--muted,#626257)}@media(max-width:600px){.ds-portrait-note{font-size:11px}}"
+    },
+    {
+      "name": "Switchable Hero Controls",
+      "kind": "custom",
+      "refersTo": "hero-switch",
+      "description": "Sculpture, Portrait, and Life chapters share a rounded style switch; shield separation and HTML topics control the sculpture. Portrait persists as ?hero=portrait and Life chapters as ?hero=chapters.",
+      "html": "<div class=\"ds-hero-controls\"><div class=\"ds-hero-switch\" role=\"group\" aria-label=\"Hero style\"><button aria-pressed=\"true\">Sculpture</button><button aria-pressed=\"false\">Portrait</button><button aria-pressed=\"false\">Life chapters</button></div><div class=\"ds-chapter-group\" role=\"group\" aria-label=\"Explore what matters to you\"><span>What matters to you?</span><div><button aria-pressed=\"true\">Your health<span class=\"ds-chapter-dot\" aria-hidden=\"true\"></span></button><button aria-pressed=\"false\">Your income<span class=\"ds-chapter-dot\" aria-hidden=\"true\"></span></button><button aria-pressed=\"false\">Your people<span class=\"ds-chapter-dot\" aria-hidden=\"true\"></span></button></div></div></div><div class=\"ds-shield-controls\"><label for=\"ds-shield-spread\">Explore the layers <span>65% open</span></label><input id=\"ds-shield-spread\" type=\"range\" min=\"0\" max=\"100\" step=\"1\" value=\"65\" aria-valuetext=\"65% separated\"><div><span>Together</span><span>Separated</span></div><p>Select a shield or a topic below.</p></div>",
+      "css": ".ds-hero-controls{font-family:var(--sans,'DM Sans Variable',sans-serif);color:var(--ink,#292e28);background:var(--paper,#f5f2eb)}.ds-hero-switch{display:inline-flex;padding:3px;border:1px solid #cfc8bd;border-radius:30px;gap:2px}.ds-hero-switch button{font-family:inherit;border:0;padding:8px 17px;border-radius:24px;background:none;font-size:11px;line-height:1.4;color:var(--muted,#626257);cursor:pointer;transition:background .2s,color .2s}.ds-hero-switch button[aria-pressed=true]{background:var(--ink,#292e28);color:var(--white,#fffaf3)}.ds-hero-switch button:focus-visible{outline:2px solid var(--wine,#a1253b);outline-offset:2px}.ds-chapter-group{margin-top:30px}.ds-chapter-group>span{display:block;font-family:var(--serif,'Cormorant Garamond Variable',Georgia,serif);font-size:25px;margin-bottom:15px;line-height:1.1}.ds-chapter-group>div{display:flex;gap:5px;flex-wrap:wrap}.ds-chapter-group button{font-family:inherit;position:relative;display:flex;align-items:center;gap:9px;background:none;border:1px solid transparent;border-radius:0;font-size:12px;line-height:1.65;padding:9px 12px 9px 0;margin-right:12px;color:var(--muted,#626257);cursor:pointer}.ds-chapter-group button:last-child{margin-right:0}.ds-chapter-group button[aria-pressed=true]{color:var(--wine,#a1253b)}.ds-chapter-group button:after{content:'';position:absolute;left:0;bottom:0;height:1px;width:100%;background:var(--wine,#a1253b);transform:scaleX(0);transform-origin:left;transition:transform .25s ease}.ds-chapter-group button[aria-pressed=true]:after{transform:scaleX(1)}.ds-chapter-group button:focus-visible{outline:2px solid var(--wine,#a1253b);outline-offset:5px}.ds-chapter-dot{width:4px;height:4px;border-radius:50%;background:currentColor;opacity:0}.ds-chapter-group button[aria-pressed=true]>.ds-chapter-dot{opacity:1}@media(max-width:800px){.ds-hero-switch button{font-size:10px;padding:8px 14px}.ds-chapter-group>span{font-size:24px}.ds-chapter-group>div{flex-direction:column;align-items:flex-start}.ds-chapter-group button{font-size:11px;padding:6px 12px 6px 0}}@media(max-width:600px){.ds-hero-switch button{padding:8px 12px}.ds-chapter-group>span{font-size:25px}.ds-chapter-group>div{flex-direction:row;gap:9px;justify-content:space-between}.ds-chapter-group button{gap:6px;padding:7px 0 10px;margin:0}.ds-chapter-dot{display:none}}@media(prefers-reduced-motion:reduce){.ds-hero-switch button,.ds-chapter-group button:after{transition:none}}.ds-shield-controls{font-family:var(--sans,'DM Sans Variable',sans-serif);margin-top:24px}.ds-shield-controls label{display:flex;justify-content:space-between;gap:10px;font-size:12px;color:var(--ink,#292e28)}.ds-shield-controls label span{font-size:10px;color:var(--muted,#626257);font-variant-numeric:tabular-nums}.ds-shield-controls input{width:100%;height:28px;accent-color:var(--wine,#a1253b);cursor:ew-resize;margin:8px 0 0;padding:0}.ds-shield-controls input:focus-visible{outline:2px solid var(--wine,#a1253b);outline-offset:5px}.ds-shield-controls>div{display:flex;justify-content:space-between;font-size:10px;color:var(--muted,#626257)}.ds-shield-controls p{text-align:center;font-size:10px;color:var(--muted,#626257);margin-top:9px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Editorial Portrait Feature",
+    "overview": "A warm editorial portrait feature brings a person, clear explanations, and a considered invitation into the same visual world.\nExpressive serif headings, ivory surfaces, and restrained wine accents create a composed, personal atmosphere.\n\nThe layout has generous section spacing and compact practical details.\nPhotography, the layered shields, and the protection card deck provide the strongest visual depth, while interface controls remain precise and legible.\nThis document records the implemented system in `src/tokens.css` and `src/styles.css`, plus the scoped hero extension in `src/HeroExperience.tsx`, `src/hero-experience.css`, `src/shield-scene.ts`, `src/LifeChapters.tsx`, and `src/life-chapters.css`.\nIt does not imply owner approval of the generated portrait or drafted personal statements.\n\nThe default opening presents three distinct shield layers under the thesis \"Life is connected.\"\nAn onsite Sculpture / Portrait / Life chapters switch offers an interactive shield, the preserved editorial portrait, and a wine-colored chapter narrative.\nThis user-requested extension retains the established palette and type pairing while adding local hero type sizes and a rounded presentation switch.",
+    "keyCharacteristics": [
+      "Warm paper surfaces and wine accents.",
+      "Expressive serif headings paired with quiet sans-serif detail.",
+      "Fine dividing rules and predominantly square controls.",
+      "Sculptural protection layers and an asymmetric portrait crop.",
+      "Three switchable hero presentations with contextual protection and life-stage choices.",
+      "Purposeful motion with a complete reduced-motion override."
+    ],
+    "rules": [
+      {
+        "name": "The Wine Signal Rule",
+        "body": "Use wine consistently for action, emphasis, selection, and focus so those states read as one family.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Use the serif for expressive headings and the sans serif for practical reading and interaction.",
+        "section": "typography"
+      },
+      {
+        "name": "The Sculptural Depth Rule",
+        "body": "Keep ordinary editorial content flat and use the most visible depth to clarify the protection layers.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the warm paper, wine, and olive-charcoal relationship.",
+      "Do pair expressive serif headings with clear sans-serif controls.",
+      "Do keep selected states and keyboard focus visibly tied to wine.",
+      "Do preserve the square control language and reserve curves for the established signature shapes.",
+      "Do maintain stacked mobile layouts and the reduced-motion override.",
+      "Do keep the generated portrait disclosure readable until an approved portrait replaces it.",
+      "Do keep sculpture typography, the Life chapters palette, and rounded switch tokens scoped to the switchable hero.",
+      "Do keep topic explanations and consultation actions usable independently of WebGL."
+    ],
+    "donts": [
+      "Don't apply rounded cards or heavy shadows to ordinary editorial content.",
+      "Don't use the serif for form labels or dense practical instructions.",
+      "Don't make essential information depend on hover or animation.",
+      "Don't style an appointment request as a confirmed appointment.",
+      "Don't apply the hero switch's rounded options to existing square form controls.",
+      "Don't continue sculpture animation while paused, offscreen, hidden, or under reduced motion.",
+      "Don't reintroduce perspective planes or hover transforms into the four-card coverage deck."
+    ]
+  }
+}

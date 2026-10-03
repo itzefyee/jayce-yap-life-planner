@@ -1,0 +1,24 @@
+# Jayce Yap Zi Wen
+
+> Personal portfolio of an AIA Life Planner in Malaysia.
+
+The website explains general protection topics and helps visitors prepare a consultation request.
+WhatsApp requests are sent by the visitor and are subject to confirmation by Jayce.
+The portrait is an AI illustration, pending the planner's own photograph.
+The website is a preview and is currently marked noindex.
+
+## Pages
+
+- [Meet Jayce](/#about): Planning approach and introduction.
+- [Your protection](/#protection): Medical protection, critical illness, life protection, and policy reviews.
+- [Planning check](/#check-in): Three questions to prepare for a conversation, not a personalised recommendation.
+- [The journal](/#journal): Educational notes with AIA Malaysia sources.
+- [Request a conversation](/#contact): Prepare and review a WhatsApp enquiry.
+
+## Contact
+
+- [Jayce on WhatsApp](https://wa.me/60146113822): +60 14-611 3822.
+
+## Official information
+
+- [AIA Malaysia](https://www.aia.com.my/): Official insurer website, separate from this personal portfolio.

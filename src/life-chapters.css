@@ -1,0 +1,298 @@
+.life-chapters {
+  background: #701c30;
+  color: #fff7e9;
+  padding: 65px 6.3% 26px;
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  column-gap: 10%;
+  position: relative;
+  overflow: hidden;
+}
+.chapters-intro {
+  padding: 12px 0 30px;
+}
+.chapters-intro h1 {
+  font-size: clamp(65px, 6.9vw, 96px);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+}
+.chapters-intro h1 em {
+  color: #ebbf9a;
+}
+.chapters-intro > p {
+  margin-top: 27px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #eed8d8;
+}
+.chapter-identity {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  margin-top: 40px;
+}
+.chapter-identity .signature {
+  color: #ebbf9a;
+}
+.chapter-identity > span:last-child {
+  border-left: 1px solid #af6674;
+  padding-left: 20px;
+  font-size: 11px;
+  line-height: 1.9;
+  color: #eed8d8;
+}
+.chapter-identity strong {
+  display: block;
+  color: #fff7e9;
+  font-weight: 500;
+  font-size: 12px;
+}
+.chapter-spread {
+  padding-top: 10px;
+  align-self: start;
+}
+.chapter-folio {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #af6674;
+  padding-bottom: 18px;
+  font-size: 13px;
+  color: #f1d0ba;
+}
+.chapter-folio span:last-child {
+  font-variant-numeric: tabular-nums;
+  font-size: 11px;
+}
+.chapter-story {
+  min-height: 330px;
+  padding-top: 30px;
+  animation: chapter-unfold 0.55s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.chapter-story h2 {
+  font-size: clamp(35px, 3.5vw, 51px);
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+}
+.chapter-story h2 span {
+  display: block;
+}
+.chapter-story > p {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #eed8d8;
+  margin-top: 20px;
+  max-width: 48ch;
+}
+.chapter-story ul {
+  margin: 23px 0 0;
+  padding: 0;
+  list-style: none;
+}
+.chapter-story li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 12px 0;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.chapter-story li svg {
+  color: #ebbf9a;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.chapter-story .chapter-focus {
+  color: #f1d0ba;
+  font-family: var(--serif);
+  font-size: 23px;
+  font-style: italic;
+  margin-top: 24px;
+}
+.life-chapters .chapter-book {
+  background: #fff7e9;
+  color: #701c30;
+  border-color: #fff7e9;
+  margin-top: 18px;
+}
+.life-chapters .chapter-book:hover {
+  background: #ebbf9a;
+  color: #4c1121;
+}
+.chapter-alternative {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 11px;
+  margin: 20px 0 0;
+  width: fit-content;
+}
+.chapter-alternative:hover {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+.life-timeline {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  margin-top: 54px;
+}
+.life-timeline button {
+  color: #eed8d8;
+  background: none;
+  border: 0;
+  border-top: 1px solid #af6674;
+  padding: 19px 0;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-align: left;
+  position: relative;
+  font-size: 14px;
+}
+.life-timeline button:before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #ebbf9a;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.life-timeline button[aria-pressed='true']:before {
+  transform: scaleX(1);
+}
+.life-timeline button[aria-pressed='true'] {
+  color: #fff7e9;
+}
+.timeline-marker {
+  font-family: var(--serif);
+  font-size: 28px;
+  color: #ebbf9a;
+}
+.life-timeline button > svg {
+  margin-left: auto;
+  transition: transform 0.2s;
+}
+.life-timeline button:hover > svg {
+  transform: translate(2px, -2px);
+}
+.chapters-footnote {
+  grid-column: 1/-1;
+  margin-top: 5px;
+  color: #eed8d8;
+  font-size: 10px;
+  line-height: 1.6;
+}
+.life-chapters :focus-visible {
+  outline: 2px solid #fff7e9;
+  outline-offset: 5px;
+}
+@keyframes chapter-unfold {
+  from {
+    transform: translateY(8px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@media (min-width: 1600px) {
+  .life-chapters {
+    padding-left: max(6.3%, calc((100vw - 1400px) / 2));
+    padding-right: max(6.3%, calc((100vw - 1400px) / 2));
+  }
+}
+@media (max-width: 1000px) {
+  .life-chapters {
+    column-gap: 6%;
+    padding-top: 45px;
+  }
+  .chapters-intro h1 {
+    font-size: 66px;
+  }
+  .chapter-story {
+    min-height: 360px;
+  }
+  .chapter-story h2 {
+    font-size: 36px;
+  }
+  .life-timeline {
+    gap: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .life-chapters {
+    grid-template-columns: 1fr;
+    padding: 38px 6% 25px;
+  }
+  .chapters-intro h1 {
+    font-size: clamp(61px, 12vw, 78px);
+  }
+  .chapters-intro > p {
+    font-size: 14px;
+  }
+  .chapter-identity {
+    margin-top: 26px;
+  }
+  .chapter-spread {
+    padding-top: 10px;
+  }
+  .chapter-story {
+    min-height: 0;
+    padding-top: 25px;
+  }
+  .chapter-story h2 {
+    font-size: 39px;
+  }
+  .chapter-book {
+    margin-top: 26px;
+  }
+  .life-timeline {
+    margin-top: 36px;
+    gap: 13px;
+  }
+  .life-timeline button {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 6px;
+    padding-top: 14px;
+    font-size: 11px;
+    line-height: 1.5;
+  }
+  .timeline-marker {
+    width: 100%;
+    font-size: 25px;
+  }
+  .life-timeline button > svg {
+    display: none;
+  }
+  .chapters-footnote {
+    max-width: 48ch;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .chapter-story {
+    animation: none;
+  }
+  .life-timeline button:before,
+  .life-timeline button > svg {
+    transition: none;
+  }
+}
+@media (max-width: 700px) {
+  .life-timeline {
+    grid-row: 2;
+    margin-top: 4px;
+    margin-bottom: 24px;
+  }
+  .chapter-spread {
+    grid-row: 3;
+  }
+  .chapters-footnote {
+    grid-row: 4;
+    margin-top: 30px;
+  }
+}
