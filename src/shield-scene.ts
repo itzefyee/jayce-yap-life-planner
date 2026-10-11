@@ -3,7 +3,6 @@ import {
   ACESFilmicToneMapping,
   Scene,
   PerspectiveCamera,
-  PMREMGenerator,
   HemisphereLight,
   DirectionalLight,
   MeshPhysicalMaterial,
@@ -17,7 +16,6 @@ import {
   Vector2,
   type BufferGeometry,
 } from 'three';
-import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 
 export type ShieldController = {
@@ -51,17 +49,8 @@ export function mountShield(
   const scene = new Scene();
   const camera = new PerspectiveCamera(36, 1, 0.1, 50);
   camera.position.set(0, 0, 10);
-  const createEnvironment = () => {
-    const room = new RoomEnvironment();
-    const generator = new PMREMGenerator(renderer);
-    const target = generator.fromScene(room, 0.05, 0.1, 100, { size: 128 });
-    room.dispose();
-    generator.dispose();
-    return target;
-  };
-  let environment = createEnvironment();
-  scene.environment = environment.texture;
-  scene.environmentIntensity = 0.75;
+  // Direct lighting preserves the sculpture's intended shading without generating
+  // a runtime PMREM environment map during the page's critical rendering path.
   scene.add(new HemisphereLight(0xfff6e5, 0x45262a, 1.5));
   const light = new DirectionalLight(0xfff8ed, 3);
   light.position.set(-3, 5, 6);
@@ -276,9 +265,6 @@ export function mountShield(
   };
   const restored = () => {
     lostContext = false;
-    environment.dispose();
-    environment = createEnvironment();
-    scene.environment = environment.texture;
     prepare();
   };
   container.addEventListener('pointermove', move);
@@ -326,7 +312,6 @@ export function mountShield(
       symbols.forEach((symbol) => symbol.dispose());
       symbolMaterial.dispose();
       materials.forEach((material) => material.dispose());
-      environment.dispose();
       renderer.dispose();
       renderer.forceContextLoss();
       renderer.domElement.remove();

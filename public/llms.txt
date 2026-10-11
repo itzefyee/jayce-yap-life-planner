@@ -5,7 +5,7 @@
 The website explains general protection topics and helps visitors prepare a consultation request.
 WhatsApp requests are sent by the visitor and are subject to confirmation by Jayce.
 The portrait is an AI illustration, pending the planner's own photograph.
-The website is a preview and is currently marked noindex.
+The public website is indexable by search engines.
 
 ## Pages
 

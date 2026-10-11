@@ -6,6 +6,7 @@ dist/
 test-results/
 playwright-report/
 .impeccable/review/
+.perf-audit/
 *.log
 .DS_Store
 Thumbs.db

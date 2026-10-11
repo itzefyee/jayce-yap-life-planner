@@ -110,5 +110,6 @@ The generated image is visibly identified as an illustration and must not be rep
 The site contains no fabricated awards, qualifications, client counts, or testimonials.
 The user-supplied name, country, and WhatsApp number are wired in.
 The drafted copy and planner-specific service availability should be reviewed before public launch.
-After replacing the portrait and selecting a production domain, remove the preview noindex directive and add the final canonical and social-sharing URLs.
+The canonical URL and sitemap are configured for `https://jayceyap.xyz/`.
+Add a final social-sharing image before launch.
 No deployment or confirmed appointment is claimed.

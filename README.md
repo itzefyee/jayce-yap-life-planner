@@ -40,7 +40,7 @@ Alternatively, create a **Blueprint** from the repository to apply `render.yaml`
 For a manually configured Static Site, add a rewrite from `/*` to `/index.html` under Redirects/Rewrites.
 The `start` and `preview` npm scripts are for local build previews only.
 Render serves the built files directly.
-The current preview remains `noindex, nofollow`; review the Content and launch section before making it searchable.
+The site is indexable by default.
 Local screenshots and performance captures referenced by `QA.md` are excluded from Git and can be regenerated with the test and measurement scripts.
 
 See the [Render Blueprint reference](https://render.com/docs/blueprint-spec) for the deployment configuration format.
@@ -73,16 +73,16 @@ Presentation and first-person copy live in `src/App.tsx`.
 The switchable hero lives in `src/HeroExperience.tsx` and `src/hero-experience.css`.
 Its Three.js scene is loaded separately from `src/shield-scene.ts` and releases its resources when visitors switch to another hero.
 Scene loading starts only within 120px of the viewport, so direct enquiry visits avoid the graphics download until needed.
-Shaders prepare asynchronously, lighting uses a 128px environment map, pointer work is coalesced per frame, and scroll styles update only the affected elements.
+Shaders prepare asynchronously, direct scene lighting avoids runtime environment-map generation, pointer work is coalesced per frame, and scroll styles update only the affected elements.
 The sculpture follows the display refresh cadence with frame-independent damping and six draw calls per frame.
-Context restoration regenerates the lighting before showing the scene again.
+Context restoration recompiles the scene before showing it again.
 The third presentation lives in `src/LifeChapters.tsx` and `src/life-chapters.css`.
 The current portrait is an AI-generated illustrative asset, visibly disclosed on the website.
 Replace `public/images/portrait.webp` with Jayce's authorised photograph, update its alt text, and remove the illustrative-portrait notices only after replacement.
 Review the drafted first-person copy, service formats, and AIA brand usage before public launch.
 No qualifications, awards, testimonials, or performance claims have been invented.
-The preview includes `noindex, nofollow`; remove that meta tag in `index.html` when the approved site is ready for indexing.
-Add the final production URL and social-sharing image when a domain is selected.
+The canonical URL and sitemap point to `https://jayceyap.xyz/`.
+Add a final social-sharing image before launch.
 
 ## Sources
 
